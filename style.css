@@ -464,6 +464,27 @@ header{
 }
 
 @media screen and (max-width: 535px){
+  .container{
+    width: 100vw;
+  }
+  .slider-item{
+    width: 100vw;
+  }
+  .outBox{
+    width: 100vw;
+  }
+  .box-item{
+    width: 100vw;
+  }
+  .box-arrows{
+    width: 100vw;
+  }
+  .ad{
+    width: 100%;
+  }
+  .photo img{
+    width: 100px;
+  }
   .r{
     font-size: 23px;
     text-align: justify;
