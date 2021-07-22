@@ -127,7 +127,10 @@ header{
 }
 
 /* _____________________________Section________________________________________ */
-
+section{
+  box-sizing: border-box;
+  overflow: hidden;
+}
 /* ___________Slider_____________ */
 .slider{
     margin-bottom: 20px;
@@ -216,6 +219,9 @@ header{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+  box-sizing: border-box;
+  /* overflow: hidden; */
 }
 
 .box-back{
@@ -249,6 +255,7 @@ header{
   background-position: center;
   background-size: cover;
   color: aliceblue;
+  padding: 5px;
   font-size: 30px;
 }
 
@@ -284,7 +291,7 @@ header{
   font-size: 1.5rem;
 }
 
-.ad h2{
+.whiteShadow{
   text-align: center;
   margin-bottom: 20px;
 }
@@ -315,12 +322,9 @@ header{
   font-size: 25px;
 }
 
-.aboutMe h2{
+.name{
+  text-align: left;
   margin-bottom: 10px;
-}
-
-.experience{
-  list-style: none;
 }
 
 /* ___________footer____________ */
@@ -336,6 +340,9 @@ header{
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+}
+.footer div h2{
+  margin-bottom: 0;
 }
 
 .rs{
@@ -467,24 +474,79 @@ header{
   .container{
     width: 100vw;
   }
+  .language{
+    padding: 5px;
+    right: -25px;
+  }
+  .lang{
+    padding-left: 40px;
+  }
+  .idiom{
+    text-align: right;
+    padding-right: 10px;
+  }
+  .slider{
+    margin: 10px;
+  }
   .slider-item{
-    width: 100vw;
+    min-width: 98vw;
+    font-size: 30px;
   }
   .outBox{
+    margin-top: 20px;
     width: 100vw;
   }
   .box-item{
-    width: 100vw;
+    padding: 5px;
+    width: 93vw;
+    padding: 20px;
+    font-size: 30px;
   }
   .box-arrows{
-    width: 100vw;
+    width: 93vw;
+  }
+  .adMe{
+    padding-top: 20px;
   }
   .ad{
     width: 100%;
   }
+  .me{
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
   .r{
     font-size: 23px;
     text-align: justify;
+  }
+  .photo{
+    margin-left: 20px;
+    align-self: flex-start;
+  }
+  .photo img{
+    width: 100px;
+  }
+  .aboutMe{
+    margin-left: 5px;
+    line-height: 27px;
+  }
+  .name{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .experience{
+    margin-left: -70px;
+    margin-right: 20px;
+    text-align: justify;
+  }
+  .footer{
+
+  }
+  .rs{
+    padding: 5px 5px 0 5px;
+    justify-self: flex-start;
   }
 }
 
