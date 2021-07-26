@@ -9,13 +9,13 @@
   :root{
     --verdeMarinho: #3feeb4;
     --roxo06: rgba(76, 8, 139, 0.6);
-    --roxo: rgb(76, 8, 139);
+    --roxo: rgb(41, 8, 70);
     --color4: aliceblue;
     --opacity04: rgba(31, 14, 14, 0.4);
     --opacity06: rgba(0, 0, 0, 0.6);
     --opacity08: rgba(0, 0, 0, 0.8);
-    --roxoClear3: rgb(55, 27, 107);
-    --roxoClear2: rgb(86, 25, 143);
+    --roxoClear3: rgb(63, 0, 100);
+    --roxoClear2: rgb(39, 11, 65);
   }
 
   body{
@@ -211,18 +211,23 @@
     height: 100%;
     z-index: 1;
     color: var(--color4);
-    background-color: var(--roxoClear3);
+    background-color: var(--roxo);
     font-weight: 700;
     font-family: "Anton";
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 0;
+    text-align: center;
+    border: 2px solid var(--opacity06);
+    border-right: none;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
   }
 
   .right-box{
     color: var(--color4);
-    background-color: var(--roxoClear2);
+    background-color: var(--opacity06);
     position: relative;
     flex: 1;
     height: 100%;
