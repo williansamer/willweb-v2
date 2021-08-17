@@ -1,9 +1,15 @@
 let id = document.querySelector(".id");
 
+
 onload = function(){
     let span = document.querySelectorAll(".span");
     let dado = localStorage.getItem("idioma");
-    id.innerHTML = dado;
+
+    if(dado === null){
+        id.innerHTML = spanPt;
+    } else{
+        id.innerHTML = dado;
+    }
 
     let buscarTranslate = localStorage.getItem("translate");
     let translateDados = JSON.parse(buscarTranslate);
@@ -12,7 +18,6 @@ onload = function(){
             span[i].innerHTML = translateDados[spans[i]];
         }
 }
-id.innerHTML = spanPt;
 
 function clickId(){
 
