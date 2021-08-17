@@ -1,4 +1,5 @@
 let pt = {spanWhy : "Por que ter um site?",
+spanPortifolio : "Portifólio",
 spanAbout : "Sobre",
 spanContact : "Contato",
 

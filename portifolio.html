@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="portifolio.css">
+  <link rel="icon" type="image/png" href="./assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>WillWeb - Portifolio</title>
+</head>
+<body>
+  
+  <div class="container">
+
+    <header>
+      <div class="header-porti">
+        <div class="language">
+          <div class="lang" style="padding-right: 5px;">Language:</div>
+          <div class="idiom" style="cursor: pointer;">
+            <div onclick="clickId()"><span class="id"><img src="./assets/br.png" style="width: 15px;"> Português</span></div>
+          </div>
+        </div>
+        <div class="logo-porti">
+          <a href="./index.html"><img src="./assets/logo.png" alt=""></a>
+        </div>
+
+        <div class="menu-porti">
+          <ul class="innerMenu menu-portifolio">
+
+            <li class="itemMenu">
+              <button class="b">
+                <a href="./portifolio.html">
+                  <svg>
+                    <rect fill="none" width="100%" height="100%"></rect>
+                  </svg>
+                  <span class="span"  id="span-portifolio" style="font-size: 50px;">Portifólio</span>
+                </a>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+
+    <section>
+<!--       <div class="container-porti">
+        <div class="left">
+          <a style="text-decoration: underline;" href="https://williansamer.github.io/willweb-v2/"><img class="img" src="./assets/willweb-portifolio.png" alt=""></a>
+        </div>
+        <div class="right">
+          <h3 class="title-description">Meu Site</h3>
+          <div class="description">Site desenvolvido para mostrar aos clientes e futuros clientes todos os projetos desenvolvimento pela agência WillWeb.</div>
+          <div class="link"><a style="text-decoration: underline;" href="https://williansamer.github.io/willweb-v2/">williansamer.github.io/willweb-v2</a></div>
+        </div>
+      </div> -->
+    </section>
+  </div>
+
+  <footer id="contact" class="footer">
+    <div class="rs">
+      <h2 class="whiteShadow"><span class="span" id="span-contactFooter">Contato</span></h2> <br>
+      <ul>
+        <li class="zap"><a href="https://web.whatsapp.com/" target="_blank"> 17 981622464</a></li>
+        <li class="email"><a href="mailto:willian.samer@gmail.com" target="_blank">willian.samer@gmail.com</a></li>
+        <li class="face"><a href="https://www.facebook.com/willian.samer" target="_blank">Facebook</a></li>
+        <li class="gitHub"><a href="https://github.com/williansamer" target="_blank">williansamer</a></li>
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCq3gHBAAUDS70JdPXsb_krg/videos" target="_blank">YouTube</a></li>
+      </ul>
+    </div>
+
+    <div class="inp">
+      <form method="GET">
+        <input class="inpBox" type="email" name="email" placeholder="Email">
+        <textarea class="inpBox" name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+        <button class="b">
+          <a>
+            <svg>
+              <rect fill="none" width="100%" height="100%"></rect>
+            </svg>
+            <span class="span" id="span-send">Enviar</span>
+          </a>
+        </button>
+      </form>
+    </div>
+
+    <div class="copy">
+      <span class="span" id="span-copy">&copy 2021 - Todos os direitos reservados</span>
+    </div>
+  </footer>
+
+  <script src="./scripts/portifolio/lets-porti.js"></script>
+  <script src="./scripts/portifolio/pt-porti.js"></script>
+  <script src="./scripts/portifolio/en-porti.js"></script>
+  <script src="./scripts/portifolio/projects.js"></script>
+  <script src="./scripts/portifolio/script-porti.js"></script>
+</body>
+</html>

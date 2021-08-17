@@ -1,5 +1,6 @@
 let spanHome = document.querySelector("#span-home");
 let spanWhy = document.querySelector("#span-why");
+let spanPortifolio = document.querySelector("#span-portifolio");
 let spanAbout = document.querySelector("#span-about");
 let spanContact = document.querySelector("#span-contact");
 
@@ -37,4 +38,4 @@ let spanCopy = document.querySelector("#span-copy");
 let spanPt =  '<img src="./assets/br.png" style="width: 15px;"> Português'
 let spanEn = '<img src="./assets/en.png" style="width: 15px;"> English'
 
-let spans = ["spanWhy", "spanAbout", "spanContact", "spanSliderOne", "spanSliderTwo", "spanSliderThree", "spanAnswers", "spanP1", "spanR1", "spanP2", "spanR2", "spanP3", "spanR3", "spanP4", "spanR4", "spanP5", "spanR5", "spanP6", "spanR6", "spanMe1", "spanMe2", "spanMe3", "spanLi1", "spanLi2", "spanLi3", "spanLi4", "spanContactFooter", "spanSend", "spanCopy"];
+let spans = ["spanWhy", "spanPortifolio", "spanAbout", "spanContact", "spanSliderOne", "spanSliderTwo", "spanSliderThree", "spanAnswers", "spanP1", "spanR1", "spanP2", "spanR2", "spanP3", "spanR3", "spanP4", "spanR4", "spanP5", "spanR5", "spanP6", "spanR6", "spanMe1", "spanMe2", "spanMe3", "spanLi1", "spanLi2", "spanLi3", "spanLi4", "spanContactFooter", "spanSend", "spanCopy"];

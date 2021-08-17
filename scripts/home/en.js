@@ -1,4 +1,5 @@
 let en = {spanWhy : "Why have a Website?",
+spanPortifolio : "Portifolio",
 spanAbout : "About",
 spanContact : "Contact",
 
