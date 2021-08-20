@@ -61,11 +61,19 @@ function creatingSide(side, i, container){
 
     let linkDiv = document.createElement("div");
     linkDiv.classList.add("link");
-      let linkA = document.createElement("a");
-      linkA.style.textDecoration = "underline";
-      linkA.href = i.link;
-      linkA.innerHTML = i.txtlink;
-      linkDiv.appendChild(linkA);
+      let linkA1 = document.createElement("a");
+      let gap = document.createElement("br");
+      let linkA2 = document.createElement("a");
+      linkA1.style.textDecoration = "underline";
+      linkA1.href = i.link1;
+      linkA1.innerHTML = i.txtlink1;
+      linkDiv.appendChild(linkA1);
+
+      linkDiv.appendChild(gap);
+      linkA2.style.textDecoration = "underline";
+      linkA2.href = i.link2;
+      linkA2.innerHTML = i.txtlink2;
+      linkDiv.appendChild(linkA2);
     
     elementSide.appendChild(titleDiv);
     elementSide.appendChild(descriptionDiv);
