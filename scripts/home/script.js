@@ -4,15 +4,16 @@ let id = document.querySelector(".id");
 onload = function(){
     let span = document.querySelectorAll(".span");
     let dado = localStorage.getItem("idioma");
+    let buscarTranslate = localStorage.getItem("translate");
+    let translateDados = JSON.parse(buscarTranslate);
 
     if(dado === null){
         id.innerHTML = spanPt;
+        localStorage.setItem("idioma", spanPt);
     } else{
         id.innerHTML = dado;
+        
     }
-
-    let buscarTranslate = localStorage.getItem("translate");
-    let translateDados = JSON.parse(buscarTranslate);
 
         for(let i = 0; i < span.length; i++){
             span[i].innerHTML = translateDados[spans[i]];
