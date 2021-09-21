@@ -101,12 +101,21 @@ let portifolioPt = [projetoPt("my-site",
             ),
             projetoPt("posto",
               "./assets/img-portifolio/posto.png",
-              "Preço dos Postos(em andamento)",
+              "Preço dos Postos",
               "Sistema ainda em andamento com o objeto de mostrar preços dos combustíveis de uma cidade para os cidadãos com buscas selecionáveis.",
               "https://williansamer.github.io/posto-v2/",
               "https://github.com/williansamer/posto-v2",
               "Parte Visual - Posto",
               "GitHub - Posto"
+            ),
+            projetoPt("mural",
+              "./assets/img-portifolio/mural.png",
+              "Mural",
+              "Desenvolvido em HTML5, Bootstrap, JavaScript e Node.js. Visa desenvolver a comunicação de qualquer grupo de pessoas como um meio único e centralizado de contato.",
+              "https://lesson-mural.herokuapp.com/",
+              "https://github.com/williansamer/mural",
+              "Parte Visual - Mural",
+              "GitHub - Mural"
             )]
 
 function projetoPt(nome, imagem, titulo, descricao, link1, link2, txtlink1, txtlink2){
@@ -205,13 +214,21 @@ let portifolioEn = [projetoEn("my-site",
             ),
             projetoEn("posto",
               "./assets/img-portifolio/posto.png",
-              "Fuel Price(in progress)",
+              "Fuel Price",
               "System still in progress with the object of showing fuel prices of a city to citizens with selectable searches.",
               "https://williansamer.github.io/posto-v2/",
               "https://github.com/williansamer/posto-v2",
               "Visual Part - Fuel Price",
-              "GitHub - Fuel Price"
-            )]
+              "GitHub - Fuel Price"),
+            projetoEn("mural",
+              "./assets/img-portifolio/mural.png",
+              "Mural",
+              "Developed in HTML5, Bootstrap, JavaScript and Node.js. It aims to develop communication for any group of people as a unique, centralized way of contact.",
+              "https://lesson-mural.herokuapp.com/",
+              "https://github.com/williansamer/mural",
+              "Visual Part - Mural",
+              "GitHub - Mural")
+            ]
 
 function projetoEn(nome, imagem, titulo, descricao, link1, link2, txtlink1, txtlink2){
   return {nome, imagem, titulo, descricao, link1, link2, txtlink1, txtlink2};
