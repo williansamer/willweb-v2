@@ -51,7 +51,7 @@ function sendEmail(){
                     body: JSON.stringify(posts)
                     }
     
-    fetch("http://localhost:3000/", options)
+    fetch("https://willweb-v2.herokuapp.com/", options)
         .then(res=>{
             console.log(res)
         })
