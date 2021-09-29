@@ -3,9 +3,11 @@ const app = express();
 const path  = require("path");
 const dotenv = require("dotenv");
 const nodemailer = require("nodemailer");
-const SMTPConnection = require("nodemailer/lib/smtp-connection");
+const cors = require("cors");
 
 dotenv.config();
+
+let options = {origin: "http://localhost:3000"};
 
 let transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
@@ -17,6 +19,7 @@ let transporter = nodemailer.createTransport({
     }
 })
 
+app.use(cors(options));
 app.use(express.urlencoded({extended: true}), express.static(path.join(__dirname, "public")));
 
 app.post("/", express.json(), (req, res)=>{
@@ -36,6 +39,6 @@ app.post("/", express.json(), (req, res)=>{
         res.send("Erro ao enviar o email")
     })
 })
-.listen(3000, ()=>{
+.listen(process.env.PORT, ()=>{
     console.log("Server running..")
 })
