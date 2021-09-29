@@ -19,7 +19,7 @@ let transporter = nodemailer.createTransport({
 
 app.use(express.urlencoded({extended: true}), express.static(path.join(__dirname, "public")));
 
-app.post("/email-enviado", express.json(), (req, res)=>{
+app.post("/", express.json(), (req, res)=>{
     let email = req.body.email;
     let message = req.body.message;
 
@@ -30,7 +30,6 @@ app.post("/email-enviado", express.json(), (req, res)=>{
         subject: "Assunto WillWeb",
         text: message,
     }).then((info)=>{
-        console.log(info);
         res.send("Email enviado com sucesso")
     }).catch((error)=>{
         console.log(error);

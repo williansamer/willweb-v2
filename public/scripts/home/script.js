@@ -123,7 +123,7 @@ function sendEmail(){
                     body: JSON.stringify(posts)
                     }
     
-    fetch("http://localhost:3000/email-enviado", options)
+    fetch("http://localhost:3000/", options)
         .then(res=>{
             console.log(res)
         })

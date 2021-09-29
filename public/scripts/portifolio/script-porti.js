@@ -39,4 +39,23 @@ function clickId(){
     }
 }
 
+function sendEmail(){
+
+    let email = document.querySelector("#email").value;
+    let message = document.querySelector("#message").value;
+
+    let posts = {email, message}
+
+    let options = { method: "POST",
+                    headers: new Headers({"content-type": "application/json"}),
+                    body: JSON.stringify(posts)
+                    }
+    
+    fetch("http://localhost:3000/", options)
+        .then(res=>{
+            console.log(res)
+        })
+    return;
+}
+
 //______________________________________________________________________________
