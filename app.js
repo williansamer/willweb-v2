@@ -22,6 +22,10 @@ let transporter = nodemailer.createTransport({
 app.use(cors(options));
 app.use(express.urlencoded({extended: true}), express.static(path.join(__dirname, "public")));
 
+app.get("/", (req, res)=>{
+    res.send();
+})
+
 app.post("/", (req, res)=>{
     let email = req.body.email;
     let message = req.body.message;
