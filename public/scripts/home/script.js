@@ -126,6 +126,8 @@ function sendEmail(){
     fetch("https://willweb-v2.herokuapp.com/", options)
         .then(res=>{
             console.log(res)
+            document.querySelector("#email").value = "";
+            document.querySelector("#message").value = "";
         })
     return;
 }
