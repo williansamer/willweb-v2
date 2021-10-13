@@ -116,6 +116,15 @@ let portifolioPt = [projetoPt("my-site",
               "https://github.com/williansamer/mural",
               "Parte Visual - Mural",
               "GitHub - Mural"
+            ),
+            projetoPt("redirecionamento",
+              "../assets/img-portifolio/redirection-links.png",
+              "Links de Redirecionamento",
+              "Desenvolvido principalmente em EJS, JavaScript, Node e MongoBR. Objetivo de linkar com outros diferentes sites partindo do meu domínio com um sistema de CLICKS.",
+              "https://redirection-links.herokuapp.com/",
+              "https://github.com/williansamer/clicks-systems",
+              "Parte Visual - Links de Redirecionamento",
+              "GitHub - Links de Redirecionamento"
             )]
 
 function projetoPt(nome, imagem, titulo, descricao, link1, link2, txtlink1, txtlink2){
@@ -227,8 +236,16 @@ let portifolioEn = [projetoEn("my-site",
               "https://lesson-mural.herokuapp.com/",
               "https://github.com/williansamer/mural",
               "Visual Part - Mural",
-              "GitHub - Mural")
-            ]
+              "GitHub - Mural"),
+              projetoPt("redirecionamento",
+                "../assets/img-portifolio/redirection-links.png",
+                "Link Redirect",
+                "Mainly developed in EJS, JavaScript, Node and MongoBR. Aim to link with other different sites from my domain with a CLICKS system.",
+                "https://redirection-links.herokuapp.com/",
+                "https://github.com/williansamer/clicks-systems",
+                "Visual Part - Link Redirect",
+                "GitHub - Link Redirect"
+              )]
 
 function projetoEn(nome, imagem, titulo, descricao, link1, link2, txtlink1, txtlink2){
   return {nome, imagem, titulo, descricao, link1, link2, txtlink1, txtlink2};
