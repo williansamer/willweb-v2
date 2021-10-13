@@ -42,7 +42,7 @@ function creatingSide(side, i, container){
   if(side === LEFT){
     let linkDiv = document.createElement("a");
     linkDiv.style.textDecoration = "underline";
-    linkDiv.href = i.link;
+    linkDiv.href = i.link1;
 
       let imgDiv = document.createElement("img");
       imgDiv.classList.add("img");
