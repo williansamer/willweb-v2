@@ -25,9 +25,9 @@ spanMe1 : 'Somos uma empresa especializada em criar sites a empresas que buscam 
 spanMe2 : 'Te daremos toda assistência durante o desenvolvimento do site, a sua preferência em design, cores e conteúdo. Tudo isso juntamente com nosso conhecimento em copywriting, chamando a atenção do público.',
 spanMe3 : 'Levamos a sério o nosso comprometimento de te entregar o melhor. Com nossa equipe de profissionais capacitados, garantiremos o nosso serviço e a entrega de um site pronto e chamativo, buscando sempre o melhor custo-benefício para você.',
 
-spanLi1 : 'Fundador e CEO da WillWeb. Atuante no mercado desde 2020.',
-spanLi2 : 'Desenvolvedor Full Stack desde 2020. Certificado pelo ProgramadorBR.',
-spanLi3 : 'Especializado em HTML5, CSS e JavaScript.',
+spanLi1 : 'Fundador e CEO da WillWeb. Atuante no mercado desde 2021.',
+spanLi2 : 'Desenvolvedor Full Stack desde 2021. Certificado pelo ProgramadorBR.',
+spanLi3 : 'Especializado em HTML5, CSS, JavaScript, NodeJs, ExpressJs, MongoDB e ReactJs.',
 spanLi4 : 'Formado em Sistemas de Informação em 2011 pela UNIFEV - Votuporanga-SP.',
 
 spanContactFooter : 'Contato',

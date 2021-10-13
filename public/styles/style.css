@@ -412,13 +412,13 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .face::before{
+  .linkedin::before{
     margin-right: 5px;
     content: "";
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(../assets/willweb_Images/face.png);
+    background-image: url(../assets/willweb_Images/linkedin.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
