@@ -20,6 +20,13 @@ let transporter = nodemailer.createTransport({
 })
 
 app.use(cors(options));
+app.use("*", (req, res, next)=>{
+    if(req.headers["x-forwarded-proto"] == "https"){
+        next()
+    } else{
+        res.redirect("https://" + req.headers.host + req.originalUrl)
+    }
+})
 app.use(express.urlencoded({extended: true}), express.static(path.join(__dirname, "public")));
 
 app.get("/", (req, res)=>{
