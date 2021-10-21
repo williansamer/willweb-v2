@@ -20,7 +20,7 @@ let transporter = nodemailer.createTransport({
 })
 
 app.use(cors(options));
-app.use("*", (req, res, next)=>{
+app.use("*", (req, res, next)=>{ //Forçando HTTPS
     if(req.headers["x-forwarded-proto"] == "https"){
         next()
     } else{

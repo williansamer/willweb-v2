@@ -125,7 +125,16 @@ let portifolioPt = [projetoPt("my-site",
               "https://github.com/williansamer/clicks-systems",
               "Parte Visual - Links de Redirecionamento",
               "GitHub - Links de Redirecionamento"
-            )]
+            ),
+            projetoPt("chat",
+            "./assets/img-portifolio/chat.png",
+            "Chat",
+            "Desenvolvido com o objetivo de obter comunicação entre o FRONT e BACK usando o 'socket.io'. É um chat com salas de conversação onde adquiri bons conhecimentos da ferramenta.",
+            "https://chat-willian.herokuapp.com/",
+            "https://github.com/williansamer/chat",
+            "Parte Visual - Chat",
+            "GitHub - Chat"
+          )]
 
 function projetoPt(nome, imagem, titulo, descricao, link1, link2, txtlink1, txtlink2){
   return {nome, imagem, titulo, descricao, link1, link2, txtlink1, txtlink2};
@@ -237,14 +246,22 @@ let portifolioEn = [projetoEn("my-site",
               "https://github.com/williansamer/mural",
               "Visual Part - Mural",
               "GitHub - Mural"),
-              projetoPt("redirecionamento",
+              projetoEn("redirecionamento",
                 "./assets/img-portifolio/redirection-links.png",
                 "Link Redirect",
                 "Mainly developed in EJS, JavaScript, Node and MongoBR. Aim to link with other different sites from my domain with a CLICKS system.",
                 "https://redirection-links.herokuapp.com/",
                 "https://github.com/williansamer/clicks-systems",
                 "Visual Part - Link Redirect",
-                "GitHub - Link Redirect"
+                "GitHub - Link Redirect"),
+              projetoEn("chat",
+                "./assets/img-portifolio/chat.png",
+                "Chat",
+                "Developed with the aim of achieving communication between FRONT and BACK using 'socket.io'. It is a chat with rooms where I get good knowledge of the tool.",
+                "https://chat-willian.herokuapp.com/",
+                "https://github.com/williansamer/chat",
+                "Visual Part - Chat",
+                "GitHub - Chat"
               )]
 
 function projetoEn(nome, imagem, titulo, descricao, link1, link2, txtlink1, txtlink2){
